@@ -2,52 +2,33 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>The BEEZ-ROCK!</title>
-  <link href="css/mine.css" rel="stylesheet" type="text/css" />
-
+  <title>Script!!</title>
+  <link href="css.css" rel="stylesheet"/>
+  <script src ="data.js"></script>
 </head>
 
 <body>
 
-  <div id="mine">
-    <div class="frame">
-      <div class="crusty">
-        <div class="beez"></div>
+
+  <div id="templates">
+    <div class="card">
+      <div class="left-col">
+        <img height = "200" width = "200"/>
+        <div class ="color">here is color</div>
       </div>
-      <div class="rock">
-        <div class="eyes">
-          <div class="eye">
-            <div class="light"></div>
-          </div>
-          <div class="eye">
-            <div class="light"></div>
-          </div>
-        </div>
+      <div class ="right-col">
+        <div class ="title">test</div>
+        <div class = "message">This is description</div>
+        <div class ="price"></div>
       </div>
     </div>
-    <div class="frame zoom">
-      <div class="crusty">
-        <div class="speak">At last...
-          The Rock is MINE!</div>
-        <div class="mouth"></div>
-        <div class="beez"></div>
-      </div>
-      <div class="frame rock zoom"></div>
-    </div>
-    <div class="frame zoom evil">
-      <div class="crusty">
-        <div class="speak">POWER
-          beyond ALL!!</div>
-        <div class="beez">
-          <div class="eye">
-            <div class="light"></div>
-          </div>
-        </div>
-      </div>
-    </div>
+  </div>  
+
+  <div class = "frame stage" id = "stage">
   </div>
+
+  <script src="app.js"></script>
+
 </body>
 
 </html>

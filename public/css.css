@@ -1,0 +1,67 @@
+body{
+    font-family: system-ui;
+    background-color: lightblue;
+}
+
+body .card{
+    display:inline-flex;
+    border:5px solid red;
+    width:400px;
+    height:300px;
+}
+
+body .card img{
+    height:150px;
+    width:150px;
+    background-color:cyan
+}
+
+.title{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.price{
+    padding: 1em;
+    text-align: center;
+}
+
+#templates{
+    background-color: white;
+}
+
+#stage{
+    background-color: lightblue;
+}
+
+.chr{
+    position:absolute;
+    left:0;
+    height:20px;
+    width:20px;
+    background-color:gainsboro
+}
+
+.img{
+    height:150px;
+    width:150px;
+}
+
+
+.myGuy{
+    height:200px;
+    width:80px;
+    display:block;
+    display:inline-block;
+    border:5px solid pink;
+}
+
+.myGuy:before{
+    display:block;
+    position:absolute;
+    border-radius: 50%;
+    background-color: bisque;
+    height:50px;
+    width:50px;
+    content: "x";
+}
